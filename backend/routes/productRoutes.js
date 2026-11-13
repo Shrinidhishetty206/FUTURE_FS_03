@@ -1,7 +1,7 @@
 
 const express = require("express");
 const router = express.Router();
-const Product = require("../models/Product");
+const Product = require("../models/product");
 
 // GET all products with optional filters
 router.get("/", async (req, res) => {
