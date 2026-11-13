@@ -18,7 +18,7 @@ connectDB();
 // API routes
 app.use("/api/products", require("./routes/productRoutes"));
 app.use("/api/orders", require("./routes/orderRoutes"));
-app.use("/api/newsletter", require("./routes/newsletterRoutes"));
+app.use("/api/newsletter", require("./routes/newsletterroutes"));
 
 // Home route
 app.get("/", (req, res) => {
