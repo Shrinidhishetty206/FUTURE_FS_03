@@ -1,6 +1,5 @@
 
-const API_URL = "http://localhost:5000/api";
-
+const API_URL = "https://future-fs-03-532i.onrender.com/api";
 let allProducts = [];
 let selectedGender = "All";
 
